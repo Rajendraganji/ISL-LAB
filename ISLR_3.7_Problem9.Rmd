@@ -2,9 +2,9 @@ Auto = read.csv("C:\\Users\\rajen\\Downloads\\Auto.data", header = TRUE, na.stri
 Auto = na.omit(Auto)
 head(Auto)
 
-Auto$origin[Auto$origin == 1] = "American"
-Auto$origin[Auto$origin == 2] = "European"
-Auto$origin[Auto$origin == 3] = "Japanese"
+Auto$origin[Auto$origin == 1] = "America"
+Auto$origin[Auto$origin == 2] = "Europe"
+Auto$origin[Auto$origin == 3] = "Japan"
 Auto$origin = as.factor(Auto$origin)
 head(Auto)
 
